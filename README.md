@@ -6,8 +6,7 @@ If you are trying to append a JSON entry into a pre-existing JSON file, you can 
 Installation
 --------
 
-composer require dhiraj1site\json-append
-composer install
+composer require dhiraj1site/jsonappend
 
 Usage
 -------
