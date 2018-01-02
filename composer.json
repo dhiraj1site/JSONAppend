@@ -1,0 +1,24 @@
+{
+    "name": "dhiraj1site/jsonappend",
+    "description": "A simple PHP library package to append JSON entries into a pre-existing JSON file",
+    "keywords": ["JSON", "append", "composer"],
+    "license": "DBAD",
+    "authors": [
+        {
+            "name": "Dhiraj Timalsina",
+            "email": "dhiraj201site@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "dhiraj1site\\jsonappend\\": "src/"
+        }
+    }
+}
