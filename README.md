@@ -1,6 +1,6 @@
 # JSON Append Library
 
-If you are trying to append a JSON entry into a pre-existing JSON file, you can use this library to add/append additional entries to a JSON file format. This package also supports a separate function to ignore pre-exiting JSON entries. 
+If you are trying to append a JSON entry into a pre-existing JSON file, you can use this library to add/append additional entries to a JSON file format. This package also supports a separate function to ignore pre-existing JSON entries. 
 
 ## Installation
 `composer require dhiraj1site/jsonappend`
@@ -24,5 +24,5 @@ This function requires two parameters. The first parameter will be the source JS
 This function is similar to appendJSON. Except this ignores duplicate JSON entires. Parameters are the same as above
 ```
 use JSONAppend;
-JSONAppend::appendJSON('services.json', $items);
+JSONAppend::appendJSON('services.json', array($items));
 ```

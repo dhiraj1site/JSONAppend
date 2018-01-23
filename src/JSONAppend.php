@@ -9,9 +9,9 @@ class JSONAppend
 
 /**
 * This function is used to appendJSON to a pre-existing JSON file without checking for duplicates
-* @param .json $sourcefile
-* @param array $appenditem
-* @return .json
+* @param    .json $sourcefile
+* @param    array $appenditem
+* @return   .json $decode
 */
 
 function appendJSON($sourcefile, $appenditem)
@@ -64,9 +64,9 @@ function appendJSON($sourcefile, $appenditem)
 /**
 * This function is used to appendJSON to a pre-existing JSON file checking for duplicates and only
 * appending unique JSON entries
-* @param .json $sourcefile
-* @param array $appenditem
-* @return .json
+* @param    .json $sourcefile
+* @param    array $appenditem
+* @return   .json $decode
 */
 
 function appendUniqueJSON($sourcefile, $appenditem)
