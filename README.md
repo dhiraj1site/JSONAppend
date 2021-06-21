@@ -24,5 +24,5 @@ This function requires two parameters. The first parameter will be the source JS
 This function is similar to appendJSON. Except this ignores duplicate JSON entires. Parameters are the same as above
 ```
 use JSONAppend;
-JSONAppend::appendJSON('services.json', array($items));
+JSONAppend::appendUniqueJSON('services.json', array($items));
 ```
